@@ -16944,7 +16944,7 @@ function SessionManager(conf) {
     this.config = {
         debug: false,
         peerConnectionConfig: {
-            iceServers: conf.iceServers || [{urls: 'turn:belghar.hopto.org:3478'}]
+            iceServers: conf.iceServers || [{'stun:stun.l.google.com:19302'}]
         },
         peerConnectionConstraints: {
             optional: [
