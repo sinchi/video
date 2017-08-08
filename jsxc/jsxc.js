@@ -8647,9 +8647,9 @@ jsxc.options = {
       withCredentials: false,
 
       /** ICE servers like defined in http://www.w3.org/TR/webrtc/#idl-def-RTCIceServer */
-      iceServers: [{
-         urls: 'stun:stun.stunprotocol.org'
-      }]
+      iceServers: [
+        {"urls":["turn:numb.viagenie.ca"],"username":"ayoub.belghar@gmail.com","credential":"3afritto"}
+      ]
    },
 
    /** Link to an online user manual */
