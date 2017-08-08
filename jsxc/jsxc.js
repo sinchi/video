@@ -8648,7 +8648,7 @@ jsxc.options = {
 
       /** ICE servers like defined in http://www.w3.org/TR/webrtc/#idl-def-RTCIceServer */
       iceServers: [{
-         urls: 'turn:numb.viagenie.ca', username: 'ayoub.belghar@gmail.com', password: '3afritto'
+         url: 'turn:ayoub.belghar@gmail.com@numb.viagenie.ca', credential: '3afritto'
       }]
    },
 
