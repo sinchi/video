@@ -16944,7 +16944,7 @@ function SessionManager(conf) {
     this.config = {
         debug: false,
         peerConnectionConfig: {
-            iceServers: conf.iceServers || [{'stun:stun.l.google.com:19302'}]
+            iceServers: conf.iceServers || [{urls:'stun:stun.l.google.com:19302'}]
         },
         peerConnectionConstraints: {
             optional: [
