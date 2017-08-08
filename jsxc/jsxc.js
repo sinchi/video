@@ -8648,7 +8648,7 @@ jsxc.options = {
 
       /** ICE servers like defined in http://www.w3.org/TR/webrtc/#idl-def-RTCIceServer */
       iceServers: [{
-         "urls":"41.250.105.138:3478", "username":"ayoub", "password": "xmpp"
+         urls: 'stun:stun.stunprotocol.org'
       }]
    },
 
