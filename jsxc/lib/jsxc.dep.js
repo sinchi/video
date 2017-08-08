@@ -16944,7 +16944,7 @@ function SessionManager(conf) {
     this.config = {
         debug: false,
         peerConnectionConfig: {
-            iceServers: conf.iceServers || [{'urls': '41.250.105.138:3478', 'username':'ayoub', 'password':'xmpp'/*'stun:stun.l.google.com:19302'*/}]
+            iceServers: conf.iceServers || [{'urls': '127.0.0.1:3478', 'username':'ayoub', 'password':'xmpp'/*'stun:stun.l.google.com:19302'*/}]
         },
         peerConnectionConstraints: {
             optional: [
