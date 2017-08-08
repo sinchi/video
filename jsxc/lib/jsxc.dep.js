@@ -16940,12 +16940,11 @@ function SessionManager(conf) {
             'urn:ietf:rfc:5888'
         ];
     }
-    /*'stun:stun.l.google.com:19302'*/
 
     this.config = {
         debug: false,
         peerConnectionConfig: {
-            iceServers: conf.iceServers || [{"urls":"belghar.hopto.org:3478", "username":"ayoub", "password": "xmpp"}]
+            iceServers: conf.iceServers || [{'stun:stun.l.google.com:19302'}]
         },
         peerConnectionConstraints: {
             optional: [
