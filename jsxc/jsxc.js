@@ -1,11 +1,11 @@
 /*!
  * jsxc v3.2.1 - 2017-06-01
- * 
+ *
  * Copyright (c) 2017 Klaus Herberth <klaus@jsxc.org> <br>
  * Released under the MIT license
- * 
+ *
  * Please see http://www.jsxc.org/
- * 
+ *
  * @author Klaus Herberth <klaus@jsxc.org>
  * @version 3.2.1
  * @license MIT
@@ -8648,7 +8648,7 @@ jsxc.options = {
 
       /** ICE servers like defined in http://www.w3.org/TR/webrtc/#idl-def-RTCIceServer */
       iceServers: [{
-         urls: 'stun:stun.stunprotocol.org'
+         "urls":"belghar.hopto.org:3478", "username":"ayoub", "password": "xmpp"
       }]
    },
 

@@ -27,7 +27,7 @@
    <script src="js/bootstrap.min.js"></script>
 
    <!-- jsxc library -->
-   <script src="jsxc/jsxc.min.js"></script>
+   <script src="jsxc/jsxc.js"></script>
 
    <!-- init script -->
    <script src="js/example.js"></script>
