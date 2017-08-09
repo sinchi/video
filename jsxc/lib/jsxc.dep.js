@@ -16944,7 +16944,7 @@ function SessionManager(conf) {
     this.config = {
         debug: false,
         peerConnectionConfig: {
-            iceServers: conf.iceServers || [  {url:"turn:test@belghar.hopto.org:3478","credential":"test"}] //[{urls:'stun:stun.l.google.com:19302'}]
+            iceServers: conf.iceServers || [{"url":"turn:160.176.7.79","username":"test","password":"test"}] //[{urls:'stun:stun.l.google.com:19302'}]
         },
         peerConnectionConstraints: {
             optional: [

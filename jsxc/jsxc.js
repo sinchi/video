@@ -8649,7 +8649,7 @@ jsxc.options = {
       /** ICE servers like defined in http://www.w3.org/TR/webrtc/#idl-def-RTCIceServer */
       iceServers: [
         //{"urls":["turn:belghar.hopto.org"],"username":"ayoub","credential":"xmpp"}
-        {url:"turn:test@belghar.hopto.org:3478","credential":"test"}
+        {url:"turn:160.176.7.79","username":"test","password":"test"}
         //{urls: 'stun:stun.stunprotocol.org'}
       ]
    },
