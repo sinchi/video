@@ -8650,7 +8650,7 @@ jsxc.options = {
       iceServers: [
         //{"urls":["turn:belghar.hopto.org"],"username":"ayoub","credential":"xmpp"}
         //{"urls":["turn:numb.viagenie.ca"],"username":"ayoub.belghar@gmail.com","credential":"3afritto"}
-        urls: 'stun:stun.stunprotocol.org'
+        {urls: 'stun:stun.stunprotocol.org'}
       ]
    },
 
