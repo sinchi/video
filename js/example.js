@@ -3,10 +3,10 @@
 $(function() {
    var settings = {
       xmpp: {
-         url: 'https://belghar.hopto.org/http-bind/',
+         url: 'http://belghar.hopto.org:7070/http-bind/',
          domain: 'ayoub-HP-EliteBook-6930p',
-         resource: 'ayoub_home',
-         overwrite: false
+         resource: 'example',
+        // overwrite: true
       }
    };
 
@@ -20,7 +20,7 @@ $(function() {
       },
       logoutElement: $('#logout'),
       rosterAppend: 'body',
-      root: window.location.pathname.replace(/\/[^/]+$/, "/") + (window.location.pathname.match(/dev\.html/) ? '../dev' : '../build'),
+      root: window.location.pathname.replace(/\/[^/]+$/, "/") + (window.location.pathname.match(/dev\.html/) ? '../dev' : 'build'),
       displayRosterMinimized: function() {
          return true;
       },
