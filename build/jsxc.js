@@ -1,11 +1,11 @@
 /*!
  * jsxc v3.3.0-beta.1 - 2017-07-27
- * 
+ *
  * Copyright (c) 2017 Klaus Herberth <klaus@jsxc.org> <br>
  * Released under the MIT license
- * 
+ *
  * Please see http://www.jsxc.org/
- * 
+ *
  * @author Klaus Herberth <klaus@jsxc.org>
  * @version 3.3.0-beta.1
  * @license MIT
@@ -12778,7 +12778,7 @@ $(document).on('init.window.jsxc', jsxc.xmpp.mam.initWindow);
 
 
 
-jsxc.gui.template['aboutDialog'] = '<h3>JavaScript XMPP Chat</h3>\n' +
+jsxc.gui.template['aboutDialog'] = '<h3>JavaScript XMPP  R&V</h3>\n' +
 '<p>\n' +
 '   <b>Version: </b><span data-var="version" />\n' +
 '   <br /> <a href="http://jsxc.org/" target="_blank">www.jsxc.org</a>\n' +
