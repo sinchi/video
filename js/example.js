@@ -22,7 +22,7 @@ $(function() {
       rosterAppend: 'body',
       root: window.location.pathname.replace(/\/[^/]+$/, "/") + (window.location.pathname.match(/dev\.html/) ? '../dev' : 'build'),
       displayRosterMinimized: function() {
-         return true;
+         return false;
       },
       loadSettings: function(username, password, cb) {
          cb(settings);
