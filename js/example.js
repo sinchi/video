@@ -3,9 +3,9 @@
 $(function() {
    var settings = {
       xmpp: {
-         url: 'http://belghar.hopto.org:7070/http-bind/',
+         url: 'https://belghar.hopto.org/http-bind/',
          domain: 'ayoub-HP-EliteBook-6930p',
-         resource: 'example',
+         resource: 'ayoub_home',
         // overwrite: true
       }
    };
